@@ -5,9 +5,7 @@ import sys
 def gradingStudents(grades):
     for i, v in enumerate(grades):
         n = (v // 5 + 1) * 5
-        if v < 38:
-            continue
-        if abs(v - n) < 3:
+        if v >= 38 and abs(v - n) < 3:
             grades[i] = n
     return (grades)
 
