@@ -11,38 +11,55 @@ print('hello world')
 input_str = input()
 ```
 
+
+## Calculations
+
+```python
+x**y   # Exponentiation(x^y)
+
+x%y    # Remainder(x%y)
+
+x // y # Division(x/y)
+
+abs(x) # Absolute Value(|x|)
+```
+
 ## Condition
 ```python
 name = input()
 
 if name == 'godori':
-  print("Hello!, godori")
+  print("Hello, godori")
 elif name == 'irodog':
-  print("Hello!, irodog")
+  print("Hello, irodog")
 else:
   print("Who are you?")
 ```
 
 ## Loop
-- for...in
-    ```python
-    members = ['godori', 'irodog', 'roodig']
 
-    for member in members:
-      print(member)
+  ```python
+  members = ['godori', 'irodog', 'roodig']
 
-    for anything in range(3):
-      print('yo')
+  # for item in items
+  for member in members:
+    print(member)
 
-    for _ in range(len(members)):
-      print(members[_])
-    ```
+  # for idx in range(number)
+  for i in range(len(members)):
+    print(members[i])
+
+  # enumerate()
+  for idx, val in enumerate(arr):
+    print(idx, val)
+  ```
+
 ## Function
 
 - Function call with parameter & return
     ```python
     def func(num):
-        return 'hello' * num
+        return 'godori' * num
 
     print(func(3))
     ```
@@ -56,14 +73,19 @@ else:
     ```
 
 ## List
-- List length
+- Length
   ```python
   arr = [1, 2, 3]
   len(arr)
   ```
-- List sort
+- Append
   ```python
-  arr = ['c','a','b']
+  arr = [1, 2, 3]
+  arr.append(4)
+  ```
+- Sort
+  ```python
+  arr = [3, 1, 2]
   arr.sort()
   ```
 
@@ -81,7 +103,6 @@ else:
     f.write('write something...')
     f.close()
   ```
-
 
 ## Pipenv
 
