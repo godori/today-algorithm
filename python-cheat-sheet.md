@@ -9,6 +9,9 @@ print('hello world')
 ## Input
 ```python
 input_str = input()
+
+# "0 1 2" -> arr = [0,1,2]
+arr = [int(n) for n in input().split()]
 ```
 
 
