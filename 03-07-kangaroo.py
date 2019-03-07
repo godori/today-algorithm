@@ -2,13 +2,9 @@ def kangaroo(x1, v1, x2, v2):
     if v1 <= v2:
         return "NO"
     t = 0
-    while 1:
-        p1 = x1 + v1 * t
-        p2 = x2 + v2 * t
-        if p1 == p2:
+    while (x1 + v1 * t) <= (x2 + v2 * t):
+        if (x1 + v1 * t) == (x2 + v2 * t):
             return "YES"
-        elif p1 > p2:
-            return "NO"
         t += 1
     return "NO"
 
