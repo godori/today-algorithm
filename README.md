@@ -10,5 +10,5 @@
 - [ ] [03-08-]()
 - [ ] [03-11-]()
 - [ ] [03-12-]()
-- [X] [03-13-](https://www.hackerrank.com/challenges/migratory-birds)
+- [X] [03-13-migratory-birds](https://www.hackerrank.com/challenges/migratory-birds)
 
