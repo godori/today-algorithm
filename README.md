@@ -1,14 +1,5 @@
-# 🌿 Today Algorithm
+# 🐍 Today Algorithm
+- [Solved Problem List](https://www.notion.so/godori/Today-625d5e0d19294ab3b990f90f052f0d67)
+- [2019-April-Algorithm](https://github.com/today-s-algorithm/2019-April-Algorithm)
 - [2019-March-Algorithm](https://github.com/today-s-algorithm/2019-March-Algorithm)
-
 - [Python Cheat Sheet](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md)
-# 🍪 Question List
-- [x] [03-04-mini-max-sum](https://www.hackerrank.com/challenges/mini-max-sum)
-- [x] [03-05-grading-students](https://www.hackerrank.com/challenges/grading)
-- [ ] [03-06-]()
-- [X] [03-07-](https://www.hackerrank.com/challenges/kangaroo)
-- [ ] [03-08-]()
-- [ ] [03-11-]()
-- [ ] [03-12-]()
-- [X] [03-13-migratory-birds](https://www.hackerrank.com/challenges/migratory-birds)
-
