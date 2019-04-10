@@ -36,11 +36,22 @@ i += 1 # i++ or ++i
 name = input()
 
 if name == 'godori':
-  print("Hello, godori")
+  print("Hi, godori")
 elif name == 'irodog':
-  print("Hello, irodog")
+  print("Hi, irodog")
 else:
   print("Who are you?")
+```
+
+- and (&&) or(||)
+```python
+a = true
+b = false
+if a == true and b == true:
+  print('can not reach here')
+
+if a == true or b == true:
+  print('you are here!')
 ```
 
 ## Loop
