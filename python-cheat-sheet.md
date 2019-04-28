@@ -11,7 +11,7 @@ print('hello world')
 input_str = input()
 ```
 
-##
+## Assignment
 ```python
 test_str = "0 1 2"
 
