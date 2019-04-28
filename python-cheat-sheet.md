@@ -9,11 +9,18 @@ print('hello world')
 ## Input
 ```python
 input_str = input()
-
-# "0 1 2" -> arr = [0,1,2]
-arr = [int(n) for n in input().split()]
 ```
 
+##
+```python
+test_str = "0 1 2"
+
+# map : a=0, b=1, c=2
+a, b, c = map(int, test_str.split())
+
+# arr = [0,1,2]
+arr = [int(n) for n in test_str.split()]
+```
 
 ## Calculations
 
