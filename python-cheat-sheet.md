@@ -114,6 +114,25 @@ if a == true or b == true:
   arr.sort()
   ```
 
+## Dictionary
+```python
+  mydic = dict()              # {}
+  mydic['name'] = 'godori'    # {'name': 'godori'}
+  mydic['job'] = 'developer'  # {'job':'developer', 'name': 'godori'} (no order)
+  len(mydic)                  # 2
+```
+
+## Type Conversion
+- `string` to `int`
+  ```python
+  int('13')
+  ```
+  
+- `int` to `string`
+  ```python
+  str(13)
+  ```
+
 ## OS
 - Access environment from python
   ```shell
