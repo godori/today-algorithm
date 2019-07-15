@@ -1,6 +1,10 @@
 
 # Cheat Sheet for Algorithm - Python
 
+## TOC
+[OS](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet#OS)
+
+
 ## Output
 ```python
 print('hello world')
@@ -120,6 +124,13 @@ if a == true or b == true:
   mydic['name'] = 'godori'    # {'name': 'godori'}
   mydic['job'] = 'developer'  # {'job':'developer', 'name': 'godori'} (no order)
   len(mydic)                  # 2
+```
+## String Indexing
+- str[first:last(not inclding)]
+```python
+  s = "Life is too short, You need Python"
+  s[0]     # L
+  s[0:3]   # Lif
 ```
 
 ## Type Conversion
