@@ -2,16 +2,23 @@
 # Cheat Sheet for Algorithm - Python
 
 ## TOC
-[OS](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet#OS)
+- [I/O](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#I/O)
+- [Assignment](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Assignment)
+- [Calculations](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Calculations)
+- [Condition](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Condition)
+- [Loop](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Loop)
+- [Function](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Function)
+- [List](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#List)
+- [Dictionary](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Dictionary)
+- [string indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#string-indexing)
+- [Type Conversion](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Type-Conversion)
+- [OS](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#OS)
+- [Pipenv](https://github.com/godori/today-algorithm/edit/master/python-cheat-sheet.md#Pipenv)
 
 
-## Output
+## I/O
 ```python
 print('hello world')
-```
-
-## Input
-```python
 input_str = input()
 ```
 
