@@ -2,7 +2,7 @@
 # Cheat Sheet for Algorithm - Python
 
 ## TOC
-- [I/O](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#I/O)
+- [I/O](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#io)
 - [Assignment](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Assignment)
 - [Calculations](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Calculations)
 - [Condition](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Condition)
@@ -17,12 +17,14 @@
 
 
 ## I/O
+**[⬆ Top](#toc)**
 ```python
 print('hello world')
 input_str = input()
 ```
 
 ## Assignment
+**[⬆ Top](#toc)**
 ```python
 test_str = "0 1 2"
 
@@ -34,7 +36,7 @@ arr = [int(n) for n in test_str.split()]
 ```
 
 ## Calculations
-
+**[⬆ Top](#toc)**
 ```python
 x**y   # Exponentiation(x^y)
 
@@ -50,6 +52,7 @@ i += 1 # i++ or ++i
 ```
 
 ## Condition
+**[⬆ Top](#toc)**
 ```python
 name = input()
 
@@ -73,7 +76,7 @@ if a == true or b == true:
 ```
 
 ## Loop
-
+**[⬆ Top](#toc)**
   ```python
   members = ['godori', 'irodog', 'roodig']
 
@@ -91,7 +94,7 @@ if a == true or b == true:
   ```
 
 ## Function
-
+**[⬆ Top](#toc)**
 - Function call with parameter & return
     ```python
     def func(num):
@@ -109,6 +112,7 @@ if a == true or b == true:
     ```
 
 ## List
+**[⬆ Top](#toc)**
 - Length
   ```python
   arr = [1, 2, 3]
@@ -126,6 +130,7 @@ if a == true or b == true:
   ```
 
 ## Dictionary
+**[⬆ Top](#toc)**
 ```python
   mydic = dict()              # {}
   mydic['name'] = 'godori'    # {'name': 'godori'}
@@ -133,6 +138,7 @@ if a == true or b == true:
   len(mydic)                  # 2
 ```
 ## String Indexing
+**[⬆ Top](#toc)**
 - str[first:last(not inclding)]
 ```python
   s = "Life is too short, You need Python"
@@ -141,6 +147,7 @@ if a == true or b == true:
 ```
 
 ## Type Conversion
+**[⬆ Top](#toc)**
 - `string` to `int`
   ```python
   int('13')
@@ -152,6 +159,7 @@ if a == true or b == true:
   ```
 
 ## OS
+**[⬆ Top](#toc)**
 - Access environment from python
   ```shell
   $ export OUTPUT_PATH="filename.txt"
@@ -167,7 +175,7 @@ if a == true or b == true:
   ```
 
 ## Pipenv
-
+**[⬆ Top](#toc)**
 Run pipenv shell
 
 ```shell
