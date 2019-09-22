@@ -10,6 +10,7 @@
 - [Function](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Function)
 - [String](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#String)
 - [List](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#List)
+- [Stack](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Stack)
 - [Dictionary](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Dictionary)
 - [string indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#string-indexing)
 - [Type Conversion](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Conversion)
@@ -137,6 +138,22 @@ if a == true or b == true:
   ```python
   arr = [3, 1, 2]
   arr.sort()
+  ```
+## Stack
+**[⬆ Top](#toc)**
+- using list like stack
+- push
+  ```python
+  stack = []
+  stack.append(1) # add item into the last index
+  stack.append(2)
+  # stack = [1,2]
+  ```
+- pop
+  ```python
+  stack = [1,2,3] # remove tail item
+  stack.pop()
+  # stack = [1,2]
   ```
 
 ## Dictionary
