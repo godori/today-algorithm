@@ -8,6 +8,7 @@
 - [Condition](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Condition)
 - [Loop](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Loop)
 - [Function](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Function)
+- [String](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#String)
 - [List](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#List)
 - [Dictionary](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Dictionary)
 - [string indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#string-indexing)
@@ -110,6 +111,15 @@ if a == true or b == true:
 
     print(func('hey', 3))
     ```
+
+## String
+**[⬆ Top](#toc)**
+- loop through
+  ```python
+  str = 'hello'
+  for s in str:
+    print(s)
+  ```
 
 ## List
 **[⬆ Top](#toc)**
