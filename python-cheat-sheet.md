@@ -139,6 +139,10 @@ if a == true or b == true:
   arr = [3, 1, 2]
   arr.sort()
   ```
+- Initialize
+  ```python
+  arr = [0] * 3    # [0,0,0]
+  ```
 ## Stack
 **[⬆ Top](#toc)**
 - using list like stack
