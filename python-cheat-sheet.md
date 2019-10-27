@@ -11,6 +11,7 @@
 - [String](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#String)
 - [List](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#List)
 - [Stack](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Stack)
+- [Heap](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Heap)
 - [Dictionary](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Dictionary)
 - [string indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#string-indexing)
 - [Type Conversion](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Conversion)
@@ -121,7 +122,11 @@ if a == true or b == true:
   for s in str:
     print(s)
   ```
-
+- Reverse String
+  ```python
+  str = "GODORI"
+  str[::-1]       # "IRODOG"
+  ```
 ## List
 **[⬆ Top](#toc)**
 - Length
@@ -143,11 +148,6 @@ if a == true or b == true:
   ```python
   arr = [0] * 3    # [0,0,0]
   ```
-- Reverse
-  ```python
-  str = "GODORI"
-  str[::-1]       # "IRODOG"
-  ```
 ## Stack
 **[⬆ Top](#toc)**
 - using list like stack
@@ -164,6 +164,18 @@ if a == true or b == true:
   stack.pop()
   # stack = [1,2]
   ```
+  
+## Heap
+**[⬆ Top](#toc)**
+- Using list and heapq (built-in)
+```python
+  myheap = []
+  
+  heapq.heappush(myheap, 2)
+  heapq.heappush(myheap, 1)
+  heapq.heappush(myheap, 3)
+  
+```
 
 ## Dictionary
 **[⬆ Top](#toc)**
