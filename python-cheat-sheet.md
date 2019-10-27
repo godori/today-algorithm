@@ -143,6 +143,11 @@ if a == true or b == true:
   ```python
   arr = [0] * 3    # [0,0,0]
   ```
+- Reverse
+  ```python
+  str = "GODORI"
+  str[::-1]       # "IRODOG"
+  ```
 ## Stack
 **[⬆ Top](#toc)**
 - using list like stack
