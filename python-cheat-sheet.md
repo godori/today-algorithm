@@ -168,6 +168,7 @@ if a == true or b == true:
   
   dic['name'] = 'godori'    # {'name': 'godori'}
   dic['job'] = 'developer'  # {'job':'developer', 'name': 'godori'} (no order)
+  print('name' in dic)      # true
   len(dic)                  # 2
 ```
 
