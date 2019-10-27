@@ -163,10 +163,22 @@ if a == true or b == true:
 ## Dictionary
 **[⬆ Top](#toc)**
 ```python
-  mydic = dict()              # {}
-  mydic['name'] = 'godori'    # {'name': 'godori'}
-  mydic['job'] = 'developer'  # {'job':'developer', 'name': 'godori'} (no order)
-  len(mydic)                  # 2
+  dic = dict()              # {}
+  dic = {}
+  
+  dic['name'] = 'godori'    # {'name': 'godori'}
+  dic['job'] = 'developer'  # {'job':'developer', 'name': 'godori'} (no order)
+  len(dic)                  # 2
+```
+
+- Count Frequency of characters in string
+```python
+   dic = {}
+   for c in str:
+      if c in dic:
+        dic[c] += 1
+      else:
+        dic[c] = 0
 ```
 ## String Indexing
 **[⬆ Top](#toc)**
