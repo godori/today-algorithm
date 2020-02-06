@@ -17,7 +17,7 @@
 - [Type Conversion](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Conversion)
 - [OS](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#OS)
 - [Pipenv](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Pipenv)
-
+- [Trivial Python Tips]
 
 ## I/O
 **[⬆ Top](#toc)**
@@ -242,3 +242,12 @@ Run pipenv shell
 ```shell
 $ pipenv shell
 ```
+
+## Trivial Python Tips
+**[⬆ Top](#toc)**
+
+- Booleans represent `True/False` (not true/false)
+- Using `and`, `||` instead of `&&`, `||`
+- Python has no switch/case
+- Check indentation
+
