@@ -17,7 +17,7 @@
 - [Type Conversion](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Conversion)
 - [OS](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#OS)
 - [Pipenv](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Pipenv)
-- [Trivial Python Tips]
+- [Trivial Python Tips](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#trivial-python-tips)
 
 ## I/O
 **[⬆ Top](#toc)**
