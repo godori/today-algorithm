@@ -210,15 +210,21 @@ if a == true or b == true:
 
 ## Type Check
 **[⬆ Top](#toc)**
-- `isalpha()`: Check if string
+- `isalpha()`: Check if alphabet
 - `isdigit()`: Check if number
 ```python
   s = 'str'
+  k = '!@#'
   n = 123
   
   if s.isalpha():
     print('is string')
   
+  if k.isalpha():
+    print('Are you an alphabet?')
+  else:
+    print('no i am not an alphabet')
+    
   if n.isdigit():
     print('is number')
 ```
