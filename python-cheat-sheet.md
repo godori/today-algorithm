@@ -13,7 +13,8 @@
 - [Stack](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Stack)
 - [Heap](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Heap)
 - [Dictionary](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Dictionary)
-- [string indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#string-indexing)
+- [String indexing](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#String-indexing)
+- [Type Check](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Check)
 - [Type Conversion](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Type-Conversion)
 - [OS](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#OS)
 - [Pipenv](https://github.com/godori/today-algorithm/blob/master/python-cheat-sheet.md#Pipenv)
@@ -205,6 +206,21 @@ if a == true or b == true:
   s = "Life is too short, You need Python"
   s[0]     # L
   s[0:3]   # Lif
+```
+
+## Type Check
+**[⬆ Top](#toc)**
+- `isalpha()`: Check if string
+- `isdigit()`: Check if number
+```python
+  s = 'str'
+  n = 123
+  
+  if s.isalpha():
+    print('is string')
+  
+  if n.isdigit():
+    print('is number')
 ```
 
 ## Type Conversion
